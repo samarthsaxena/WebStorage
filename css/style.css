@@ -1,0 +1,37 @@
+/* Common UI layout and design for project 'Web Storage'. */
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(243, 249, 255, 0.205);
+    margin: 1px;
+    padding: 2px;
+}
+.container{
+    display: grid;
+    text-align: center;
+    margin: 5rem;
+    gap: 1rem;
+    grid-template-areas:
+     'application'
+     'session_info';
+}
+.grid_item_1 {
+    display: grid;
+    grid-area: application;
+    background-color: aliceblue;
+    margin: 5rem;
+    padding: 2rem;
+    align-items: center;
+    }
+.grid_item_2 {
+    display: grid;
+    grid-area: session_info;
+    background-color: aliceblue;
+    margin: 4rem;
+    padding: 2rem;
+    font-family: monospace;
+}
+
+.grid_item_1:hover, .grid_item_2:hover {
+    border: 1px dashed rgb(117, 156, 172);
+
+}

@@ -16,3 +16,10 @@ https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API
 
 Further note on <code>httponly</code> atrribute:
 There're other automation tools which can help here e.g. selenium or selenium with browsermob proxy etc...
+
+
+
+
+
+#IN_PROGRESS
+-further development of tools for IndexedDB and WebSQL
